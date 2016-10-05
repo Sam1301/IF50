@@ -2064,7 +2064,7 @@ if (tC.getCookie('tc_mode_test') == 1) {
             tC.ams.scriptElt1 = document.createElement("script");
             tC.ams.additional_params = '&lcl=' + tC.internalvars.WTMCIDLocalisation + '&ctry=' + tC.internalvars.WTMCIDCountry + '&prtn_pub=' + tC.internalvars.WTMCIDPartner + '&mktg_prg=' + tC.internalvars.WTMCIDMarketingProgram + '&oth=' + tC.internalvars.WTMCIDOther + '&off=' + tC.internalvars.WTMCIDOffer;
             tC.ams.scriptElt1.id = "tc_script__1";
-            tC.ams.scriptElt1.src = "//cdn.tagcommander.com/ams/ams_klm.js";
+            tC.ams.scriptElt1.src = "../../cdn.tagcommander.com/ams/ams_klm.js";
             tC.ams.scriptElt1.async = true;
             tC.ams.scriptElt1.defer = 'defer';
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] || document.getElementsByTagName('script')[0].parentNode).insertBefore(tC.ams.scriptElt1, null);
