@@ -1718,7 +1718,7 @@ if (tC.getCookie('tc_mode_test') == 1) {
 
     tC.internalvars.fulldomain = window.location.hostname;
     tC.internalvars.maindomain = '';
-    var tmp1 = window.location.hostname.split('.');
+    var tmp1 = "www.ifly50.com".split('.');
     if (tmp1[tmp1.length - 3].length <= 2) {
         tC.internalvars.maindomain = '.' + tmp1[tmp1.length - 3] + '.' + tmp1[tmp1.length - 2] + '.' + tmp1[tmp1.length - 1];
     } else {
