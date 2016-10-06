@@ -211,7 +211,7 @@ try {
 	"undefined" != typeof tC.ams.additional_params && null != tC.ams.additional_params && "" != tC.ams.additional_params && (tC.ams.src += tC.ams.additional_params),
 	"undefined" != typeof tC.ams.hdoc.referrer && null != tC.ams.hdoc.referrer && "" != tC.ams.hdoc.referrer && (tC.ams.src += -1 != tC.ams.hdoc.referrer.indexOf("?") ? "&ref=" + tC.ams.hdoc.referrer.substr(0, tC.ams.hdoc.referrer.indexOf("?")) : "&ref=" + tC.ams.hdoc.referrer),
 	tC.ams.src_final = "",
-	tC.ams.src_final = tC.ams.channel ? "//" + tC.ams.dns + "/cs3/?tcs=" + tC.ams.id_site + "&rand=" + tC.ams.rand + tC.ams.src : "//" + tC.ams.dns + "/s3/?tcs=" + tC.ams.id_site + "&rand=" + tC.ams.rand + tC.ams.src,
+	tC.ams.src_final = tC.ams.channel ? "../../" + tC.ams.dns + "/s3/?tcs=" + tC.ams.id_site + "&rand=" + 0.5286301976779344 + tC.ams.src : "../../" + tC.ams.dns + "/s3/?tcs=" + tC.ams.id_site + "&rand=" + 0.5286301976779344 + tC.ams.src,
 	"undefined" != typeof tC.ams.redirect && 1 == tC.ams.redirect ? tC.setCookie("TCAMSSAVEHIT", tC.ams.src_final) : ("" != tC.getCookie("TCAMSSAVEHIT") && (tC.ams.px = new Image,
 				tC.ams.px.src = tC.getCookie("TCAMSSAVEHIT"),
 				tC.removeCookie("TCAMSSAVEHIT")),
