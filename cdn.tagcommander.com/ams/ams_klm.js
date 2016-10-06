@@ -217,4 +217,3 @@ try {
 				tC.removeCookie("TCAMSSAVEHIT")),
 			tC.ams.px = new Image,
 			tC.ams.px.src = tC.ams.src_final);
-"]")"]"))))
